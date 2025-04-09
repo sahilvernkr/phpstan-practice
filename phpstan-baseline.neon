@@ -1,0 +1,13 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Function getNumber\(\) should return int but returns string\.$#'
+			identifier: return.type
+			count: 1
+			path: src/file4.php
+
+		-
+			message: '#^Function sumNumbers\(\) should return int but returns array\<int\>\.$#'
+			identifier: return.type
+			count: 1
+			path: src/file5.php
